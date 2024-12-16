@@ -12,21 +12,35 @@ Essa lista contém 16 exercícios de lógica de programação, todos resolvidos 
 Os exercícios:
 
 1. Escreva um algoritmo para ler uma temperatura em graus Celsius, calcular e escrever o valor correspondente em graus Fahrenheit.
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/01_celsiusToFahrenheit.js)
 2. Escreva um algoritmo para ler o número de eleitores de um município, o número de votos brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em relação ao total de eleitores.
-3. Faça um algoritmo que leia quatro números inteiros e realize as seguintes operações:
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/02_getPorcentageOfVotes.js)
 
+3. Faça um algoritmo que leia quatro números inteiros e realize as seguintes operações:
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/03_mathOperationsOnFourIntegers.js)
    - Some 25 ao primeiro inteiro;
    - Triplique o valor do segundo inteiro;
    - Modifique o valor do terceiro inteiro para 12% do valor original;
    - Armazene no quarto inteiro a soma dos valores originais (os que o usuário digitou) dos primeiros três inteiros.
+
+
+
 4. Escreva um algoritmo para ler as notas das duas avaliações de um aluno no semestre, calcular e escrever a média semestral e a seguinte mensagem: ‘PARABÉNS! Você foi aprovado’, somente se o aluno foi aprovado (considere 6.0 a nota mínima para aprovação).
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/04_arithmeticAverageWithoutElse.js)
+
 5. Acrescente ao exercício acima a mensagem ‘Você foi REPROVADO! Estude mais’ caso a
    média calculada seja menor que 6,0.
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/05_arithmeticAverageWithElse.js)
+
 6. Ler três valores para os lados de um triângulo: A, B e C. Verificar se os lados fornecidos formam realmente um triângulo. Caso forme, deve ser indicado o tipo de triângulo: Isósceles, escaleno ou eqüilátero.
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/06_verifyTriangle.js)
 
 7. As maçãs custam 0,30 se forem compradas menos do que uma dúzia, e 0,25 se forem compradas pelo menos doze. Escreva um algoritmo que leia o número de maçãs compradas, calcule e escreva o valor total da compra.
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/07_getApplePricesOf.js)
 
 8. Escreva um algoritmo para ler 2 valores (considere que não serão lidos valores iguais) e escreve-los em ordem crescente.
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/08_orderByAscending.js)
+
 9. Escreva um algoritmo que leia o código de origem de um produto e imprima a região do mesmo, conforme a tabela abaixo:
 
    | Código de origem    | Região             |
@@ -40,17 +54,31 @@ Os exercícios:
    | 10 até 20           | Centro-Oeste      |
    | 25 até 50           | Noroeste          |
    | Fora dos intervalos | Produto importado |
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/09_getRegion.js)
+
 10. Escreva um algoritmo para ler um número inteiro e escrevê-lo na tela 10 vezes
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/10_printIntegerTenTimes.js)
+
 11. Escreva um algoritmo para ler uma quantidade indeterminada de valores inteiros. Para cada valor fornecido escrever uma mensagem que indica se cada valor fornecido é PAR ou ÍMPAR. O algoritmo será encerrado imediatamente após a leitura de um valor NULO ou NEGATIVO.
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/11_idOddOrEven.js)
+
 12. Escreva um algoritmo que gere os números de 1000 a 1999 e escreva aqueles que, divididos por 11, dão resto igual a 5.
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/12_getNumbersDividedByElevenWithRemainderFive.js)
+
 13. Escrever um algoritmo que leia 5 valores para uma variável N e, para cada um deles, calcule e mostre a tabuada de 1 até N. Mostre a tabuada na forma:
 1 x N = N
 2 x N = 2N
 3 x N = 3N
-14. Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer a média aritmética desses números.
-15. Fazer um algoritmos para receber um número decimal e o peso de cada número até que o usuário digite o número 0. Fazer a média ponderada desses números e pesos respectivos.
-16. Escreva um algoritmo para imprimir os 50 primeiros número primos maior que 100.
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/13_getTableOf.js)
 
+14. Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer a média aritmética desses números.
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/14_getArithmeticAverage.js)
+
+15. Fazer um algoritmos para receber um número decimal e o peso de cada número até que o usuário digite o número 0. Fazer a média ponderada desses números e pesos respectivos.
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/15_getWeightedAverage.js)
+
+16. Escreva um algoritmo para imprimir os 50 primeiros número primos maior que 100.
+[Veja aqui](https://github.com/bernardobru/atividades_curso_maisprati/blob/main/atividade01/exercicios/16_fifthyPrimesGreaterThenOneHundred.js)
 ## Execução dos exercícios
 
 ### Requisitos
