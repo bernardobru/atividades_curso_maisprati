@@ -7,6 +7,12 @@
  * calculateSmokerLifeLoss(10, 10);
  * // output: 253
  */
-export default function calculateSmokerLifeLoss(cigarretesPerDay, yearsSmoking) {
-    return parseInt(cigarretesPerDay * 365 * yearsSmoking * 10 / 1440);
+export default function calculateSmokerLifeLoss(
+  cigarretesPerDay,
+  yearsSmoking
+) {
+  const DAYS_YEAR = 365
+  const MINUTES_PER_CIGARRETE = 10
+  const MINUTES_IN_DAY = 1440
+  return parseInt((cigarretesPerDay * DAYS_YEAR * yearsSmoking * MINUTES_PER_CIGARRETE) / MINUTES_IN_DAY);
 }

@@ -14,7 +14,9 @@
  * // output: 135;
  */
 export default function calculateTicketPrice(distance) {
-    if (distance <= 200) {
+    const DISTANCE = 200
+
+    if (distance <= DISTANCE) {
         return distance * 0.5;
     }
 
